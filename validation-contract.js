@@ -25,7 +25,7 @@
     // IsEmail
 
 
-    exports.errors = errors;
+    exports.getErrors = async () => errors;
 
     exports.clear = async () => {
         errors = [];
